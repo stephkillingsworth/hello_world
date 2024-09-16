@@ -2,10 +2,13 @@
 # This is our first script.
 echo 'Hello World!'
 
-#Print the list of files in the directory
 
-echo 'These are the files in your directory'
+function print_list() {
+   #Print the list of files in the directory
 
-ls
+   echo 'These are the files in your directory'
 
+   ls
+}
 
+print_list
